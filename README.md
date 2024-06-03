@@ -3,6 +3,15 @@
 ## Overview
 URL Shortener is a simple web application that allows users to shorten long URLs into shorter, more manageable links. It consists of a backend written in Go (echo framework, gorm) with sqlite as the database and a frontend written in React (Typescript) with Vite.
 
+## Use Cases
+### Social Media
+- Instead of: Check out this amazing blog post on the latest tech trends! https://www.example.com/blog/2024/06/01/the-latest-tech-trends-and-how-they-are-changing-the-world
+- Get: Check out this amazing blog post on the latest tech trends! https://localhost:8080/abcdefg (will be a randomly generated key)
+
+### Email Marketing
+- Instead of: Don't miss out on our latest product! Click here to learn more: https://www.example.com/products/newest-gadget-2024?utm_source=newsletter&utm_medium=email&utm_campaign=June2024
+- Get: Don't miss out on our latest product! Click here to learn more: https://bit.ly/new-gadget (will be a randomly generated key)
+
 ## Features
 - Shorten long URLs into concise, easy-to-share links.
 - Redirect users from short links to the original long URLs.
