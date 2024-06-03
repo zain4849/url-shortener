@@ -10,7 +10,7 @@ URL Shortener is a simple web application that allows users to shorten long URLs
 
 ### Email Marketing
 - Instead of: Don't miss out on our latest product! Click here to learn more: https://www.example.com/products/newest-gadget-2024?utm_source=newsletter&utm_medium=email&utm_campaign=June2024
-- Get: Don't miss out on our latest product! Click here to learn more: https://bit.ly/new-gadget (will be a randomly generated key)
+- Get: Don't miss out on our latest product! Click here to learn more: https://localhost:8080/abcdefg (will be a randomly generated key)
 
 ## Features
 - Shorten long URLs into concise, easy-to-share links.
